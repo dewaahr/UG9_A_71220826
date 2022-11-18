@@ -1,0 +1,7 @@
+p=int(input("Masukan panjang:"))
+l=int(input("Masukan Lebar:"))
+r=int(input("Masukan Jari-Jari:"))
+luasling= float(((22/7)*(r**2))/2)
+luaspersegi= float(p*l)
+kaleng=float((((luasling+luaspersegi)/5)))
+print("Area tersebut membutuhkan",kaleng,"kaleng cat")
